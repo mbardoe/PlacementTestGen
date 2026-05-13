@@ -130,7 +130,7 @@
 #directions[
   Answer each multiple-choice question by circling the best answer.
   For short-answer questions, show enough work to make your reasoning clear.
-  Calculators may be used only if your teacher allows them.
+  Non-graphing calculators may be used.
 ]
 
 #v(0.2in)
@@ -226,10 +226,10 @@
   8,
   [The sum of two numbers is $27$. The larger number is $6$ more than twice the smaller number. Which system of equations can be used to find the two numbers, where $x$ is the smaller number and $y$ is the larger number?],
   (
-    [$x y = 27$ and $y = 6 + x$],
+    [$x dot y = 27$ and $y = 6 + x$],
     [$x + y = 27$ and $y = 6 + x$],
     [$x + y = 27$ and $y = 6 + 2x$],
-    [$x y = 27$ and $y = 6 + 2x$],
+    [$x dot y = 27$ and $y = 6 + 2x$],
   ),
 )
 
@@ -424,15 +424,14 @@
 
 #mc(
   24,
-  [What is the domain of the function $f(x) = x^2 + 6x + 9$?],
+  [What is the domain of the function $f(x) = sqrt(x - 4)$?],
   (
     [all real numbers],
-    [all real numbers greater than or equal to $0$],
-    [all real numbers greater than or equal to $3$],
-    [all real numbers greater than or equal to $9$],
+    [all real numbers greater than or equal to $4$],
+    [all real numbers less than or equal to $4$],
+    [all real numbers except $x = 4$],
   ),
 )
-
 #mc(
   25,
   [How many real solutions does the equation $2x^2 - 5x + 4 = 0$ have?],
@@ -523,7 +522,7 @@
 )
 
 #mc(
-  21,
+  29,
   [For the circle below, which expression can be used to find the area of the shaded region?
 
   #align(center)[
@@ -611,13 +610,13 @@
     #v(0.15in)
 
     #table(
-      columns: 4,
+      columns: 5,
       inset: 8pt,
       align: center,
       stroke: 0.5pt,
 
-      [$x$], [$-2$], [$0$], [$2$],
-      [$f(x)$], [], [], [],
+      [$x$], [$-2$], [$0$], [$2$], [$3$],
+      [$f(x)$], [], [], [], [],
     )
 
     #v(0.25in)
