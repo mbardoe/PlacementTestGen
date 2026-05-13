@@ -138,6 +138,72 @@
 
 #mc(
   1,
+  [Which graph shows $y = x^2$?],
+  (
+    [#small-graph("x2")],
+    [#small-graph("x")],
+    [#small-graph("x3")],
+    [#small-graph("abs")],
+  ),
+  columns: 2,
+)
+
+#mc(
+  2,
+  [Simplify: $4(2x - 1) - 3(x + 5)$],
+  (
+    [$3x - 19$],
+    [$5x - 19$],
+    [$5x - 16$],
+    [$9x - 2$],
+  ),
+)
+
+#mc(
+  3,
+  [What is the $x$-intercept of the graph of $3x - 4y = 12$?],
+  (
+    [$-4$],
+    [$-3$],
+    [$3$],
+    [$4$],
+  ),
+)
+#mc(
+  4,
+  [What is the slope of a line that passes through $(4, -1)$ and $(2, 9)$?],
+  (
+    [$frac(3, 7)$],
+    [$-5$],
+    [$-frac(5, 7)$],
+    [$-4$],
+  ),
+)
+#mc(
+  5,
+  [Which equation represents the line with slope $frac(1, 2)$ that passes through $(3, -1)$?],
+  (
+    [$x + 2y = 1$],
+    [$x - 2y = 5$],
+    [$x + 2y = -1$],
+    [$x - 2y = 8$],
+  ),
+)
+
+
+#mc(
+  6,
+  [Which method can be used to solve the linear equation $3x - 2 = 9$?],
+  (
+    [Graph $y = 3x - 2$ and identify the $x$-intercept.],
+    [Graph $y = 3x - 11$ and identify the $x$-intercept.],
+    [Graph $y = 3x - 2$ and identify the $y$-intercept.],
+    [Graph $y = 3x - 11$ and identify the $y$-intercept.],
+  ),
+)
+
+#mc(
+  7,
   [Which equation describes the functional relationship shown in the table?
   #table(
     columns: 6,
@@ -157,73 +223,6 @@
 )
 
 #mc(
-  2,
-  [Which graph shows $y = x^2$?],
-  (
-    [#small-graph("x2")],
-    [#small-graph("x")],
-    [#small-graph("x3")],
-    [#small-graph("abs")],
-  ),
-  columns: 2,
-)
-
-#mc(
-  3,
-  [Simplify: $4(2x - 1) - 3(x + 5)$],
-  (
-    [$3x - 19$],
-    [$5x - 19$],
-    [$5x - 16$],
-    [$9x - 2$],
-  ),
-)
-
-#mc(
-  4,
-  [What is the slope of a line that passes through $(4, -1)$ and $(2, 9)$?],
-  (
-    [$frac(3, 7)$],
-    [$-5$],
-    [$-frac(5, 7)$],
-    [$-4$],
-  ),
-)
-
-#mc(
-  5,
-  [Which equation represents the line with slope $frac(1, 2)$ that passes through $(3, -1)$?],
-  (
-    [$x + 2y = 1$],
-    [$x - 2y = 5$],
-    [$x + 2y = -1$],
-    [$x - 2y = 8$],
-  ),
-)
-
-#mc(
-  6,
-  [What is the $x$-intercept of the graph of $3x - 4y = 12$?],
-  (
-    [$-4$],
-    [$-3$],
-    [$3$],
-    [$4$],
-  ),
-)
-
-#mc(
-  7,
-  [Which method can be used to solve the linear equation $3x - 2 = 9$?],
-  (
-    [Graph $y = 3x - 2$ and identify the $x$-intercept.],
-    [Graph $y = 3x - 11$ and identify the $x$-intercept.],
-    [Graph $y = 3x - 2$ and identify the $y$-intercept.],
-    [Graph $y = 3x - 11$ and identify the $y$-intercept.],
-  ),
-)
-
-#mc(
   8,
   [The sum of two numbers is $27$. The larger number is $6$ more than twice the smaller number. Which system of equations can be used to find the two numbers, where $x$ is the smaller number and $y$ is the larger number?],
   (
@@ -236,28 +235,38 @@
 
 #mc(
   9,
-  [What is the range of the function $f(x) = x^2 + 6x + 9$?],
+  [At which point do the graphs of $y = 2x - 3$ and $y = 3x - 2$ intersect?],
   (
-    [all real numbers],
-    [all real numbers greater than or equal to $0$],
-    [all real numbers greater than or equal to $3$],
-    [all real numbers greater than or equal to $9$],
+    [$(1, -1)$],
+    [$(-1, -5)$],
+    [$(-4, -11)$],
+    [$(0, -3)$],
   ),
 )
-
 #mc(
   10,
-  [What are the solutions of the equation $x^2 - 3x - 1 = 0$?],
+  [Points $A(-2, 5)$ and $B(4, -3)$ are endpoints of a segment. What is the midpoint of segment $A B$?],
   (
-    [$frac(-3 + sqrt(5), 2)$ and $frac(-3 - sqrt(5), 2)$],
-    [$frac(3 + sqrt(5), 2)$ and $frac(3 - sqrt(5), 2)$],
-    [$frac(-3 + sqrt(13), 2)$ and $frac(-3 - sqrt(13), 2)$],
-    [$frac(3 + sqrt(13), 2)$ and $frac(3 - sqrt(13), 2)$],
+    [$(1, 1)$],
+    [$(2, -4)$],
+    [$(3, -1)$],
+    [$(6, -8)$],
   ),
 )
 
 #mc(
   11,
+  [What is the distance between the points $(-1, 2)$ and $(5, 10)$?],
+  (
+    [$10$],
+    [$sqrt(52)$],
+    [$14$],
+    [$sqrt(80)$],
+  ),
+)
+
+#mc(
+  12,
   [Which value is a counterexample to the statement $x^2 >= x$?],
   (
     [$x = -0.5$],
@@ -268,7 +277,7 @@
 )
 
 #mc(
-  12,
+  13,
   [Which of the following is an example of inductive reasoning?],
   (
     [Every rectangle is a parallelogram. Every square is a rectangle. Therefore, every square is a parallelogram.],
@@ -278,8 +287,54 @@
   ),
 )
 
+
+
 #mc(
-  13,
+  14,
+  [Eleanor has a garden in the shape of a right isosceles triangle. The two legs of the triangle are each 10 feet long. What is the length of the hypotenuse?],
+  (
+    [$20$ feet],
+    [$10 sqrt(3)$ feet],
+    [$15$ feet],
+    [$10 sqrt(2)$ feet],
+  ),
+)
+
+#mc(
+  15,
+  [A plane intersects a right cylinder parallel to one of the cylinder's bases. What is the shape of the intersection?],
+  (
+    [circle],
+    [rectangle],
+    [ellipse],
+    [trapezoid],
+  ),
+)
+
+#mc(
+  16,
+  [The table below shows the sum of the interior angle measures of certain polygons. According to the information in the table, which is the best prediction for the sum of the interior angle measures in an 11-gon?
+  #table(
+    columns: 2,
+    inset: 8pt,
+    align: center,
+    stroke: 0.5pt,
+    [Number of Sides], [Sum of Interior Angle Measures],
+    [3], [180],
+    [4], [360],
+    [5], [540],
+    [6], [720],
+  )],
+  (
+    [$900$],
+    [$1260$],
+    [$1440$],
+    [$1620$],
+  ),
+)
+
+#mc(
+  17,
   [The table below shows the number of diagonals in certain polygons. Which expression describes the number of diagonals in a polygon with $n$ sides?
   #table(
     columns: 2,
@@ -302,73 +357,62 @@
 )
 
 #mc(
-  14,
-  [The table below shows the sum of the interior angle measures of certain polygons. According to the information in the table, which is the best prediction for the sum of the interior angle measures in an 11-gon?
-  #table(
-    columns: 2,
-    inset: 8pt,
-    align: center,
-    stroke: 0.5pt,
-    [Number of Sides], [Sum of Interior Angle Measures],
-    [3], [180],
-    [4], [360],
-    [5], [540],
-    [6], [720],
-  )],
-  (
-    [$900$],
-    [$1260$],
-    [$1440$],
-    [$1620$],
-  ),
-)
-
-#mc(
-  15,
-  [Eleanor has a garden in the shape of a right isosceles triangle. The two legs of the triangle are each 10 feet long. What is the length of the hypotenuse?],
-  (
-    [$20$ feet],
-    [$10 sqrt(3)$ feet],
-    [$15$ feet],
-    [$10 sqrt(2)$ feet],
-  ),
-)
-
-#mc(
-  16,
-  [A plane intersects a right cylinder parallel to one of the cylinder's bases. What is the shape of the intersection?],
-  (
-    [circle],
-    [rectangle],
-    [ellipse],
-    [trapezoid],
-  ),
-)
-
-#mc(
-  17,
-  [At which point do the graphs of $y = 2x - 3$ and $y = 3x - 2$ intersect?],
-  (
-    [$(1, -1)$],
-    [$(-1, -5)$],
-    [$(-4, -11)$],
-    [$(0, -3)$],
-  ),
-)
-
-#mc(
   18,
-  [How many real solutions does the equation $2x^2 - 5x + 4 = 0$ have?],
+  [Two angles are complementary. One angle is $3x + 10$ degrees and the other is $2x - 5$ degrees. What is the measure of the larger angle?],
   (
-    [No real solutions],
-    [One real solution],
-    [Two real solutions],
-    [Infinitely many real solutions],
+    [$29$ degrees],
+    [$41$ degrees],
+    [$49$ degrees],
+    [$61$ degrees],
   ),
 )
 
 #mc(
   19,
+  [A triangle has side lengths $x + 3$, $2x - 1$, and $x + 8$. If its perimeter is $34$, what is the value of $x$?],
+  (
+    [$4$],
+    [$5$],
+    [$6$],
+    [$8$],
+  ),
+)
+
+#mc(
+  20,
+  [A dilation centered at the origin maps point $P(6, -9)$ to point $P'(2, -3)$. What is the scale factor?],
+  (
+    [$frac(1, 3)$],
+    [$frac(2, 3)$],
+    [$3$],
+    [$-3$],
+  ),
+)
+
+#mc(
+  21,
+  [Triangle $A B C$ is similar to triangle $D E F$. If $A B = 6$, $B C = 9$, and $D E = 10$, what is the length of $E F$?],
+  (
+    [$12$],
+    [$13$],
+    [$15$],
+    [$18$],
+  ),
+)
+
+#mc(
+  22,
+  [A line has equation $2x + 5y = 20$. What is the slope of a line perpendicular to it?],
+  (
+    [$-frac(2, 5)$],
+    [$frac(2, 5)$],
+    [$-frac(5, 2)$],
+    [$frac(5, 2)$],
+  ),
+)
+
+#mc(
+  23,
   [The line $y = m x + 7$ is perpendicular to the line $y = frac(3, 4)x - 9$. What is the value of $m$?],
   (
     [$frac(3, 4)$],
@@ -379,7 +423,52 @@
 )
 
 #mc(
-  20,
+  24,
+  [What is the domain of the function $f(x) = x^2 + 6x + 9$?],
+  (
+    [all real numbers],
+    [all real numbers greater than or equal to $0$],
+    [all real numbers greater than or equal to $3$],
+    [all real numbers greater than or equal to $9$],
+  ),
+)
+
+#mc(
+  25,
+  [How many real solutions does the equation $2x^2 - 5x + 4 = 0$ have?],
+  (
+    [No real solutions],
+    [One real solution],
+    [Two real solutions],
+    [Infinitely many real solutions],
+  ),
+)
+
+
+#mc(
+  26,
+  [What are the solutions of the equation $x^2 - 3x - 1 = 0$?],
+  (
+    [$frac(-3 + sqrt(5), 2)$ and $frac(-3 - sqrt(5), 2)$],
+    [$frac(3 + sqrt(5), 2)$ and $frac(3 - sqrt(5), 2)$],
+    [$frac(-3 + sqrt(13), 2)$ and $frac(-3 - sqrt(13), 2)$],
+    [$frac(3 + sqrt(13), 2)$ and $frac(3 - sqrt(13), 2)$],
+  ),
+)
+
+#mc(
+  27,
+  [A rectangle has length $x + 7$ and width $x - 2$. Its area is $36$. Which answer could represent the dimensions of the rectangle?],
+  (
+    [$5$ by $5$],
+    [$6$ by $6$],
+    [$9$ by $4$],
+    [$12$ by $3$],
+  ),
+)
+
+#mc(
+  28,
   [In the right triangle below, $M$ is the midpoint of hypotenuse $Q R$. Which statement must be true?
 
   #let a = 1
@@ -471,7 +560,7 @@
 
       // Small central-angle arc
       arc((0.85 * calc.cos(start), 0.85*calc.sin(start)), radius: 0.85, start: start, stop: stop, stroke: 0.8pt)
-      content((0deg, 2.2), [$100$ degrees])
+      content((0deg, 2.2), [$100$°])
 
       // Radius label
       content((start + 15deg, 2.2), [$9$ cm])
@@ -482,94 +571,6 @@
     [$frac(100, 360) dot pi dot 3.2^2$],
     [$frac(260, 360) dot pi dot 9^2$],
     [$100 dot pi dot 9^2$],
-  ),
-)
-
-#mc(
-  22,
-  [Points $A(-2, 5)$ and $B(4, -3)$ are endpoints of a segment. What is the midpoint of segment $A B$?],
-  (
-    [$(1, 1)$],
-    [$(2, -4)$],
-    [$(3, -1)$],
-    [$(6, -8)$],
-  ),
-)
-
-#mc(
-  23,
-  [What is the distance between the points $(-1, 2)$ and $(5, 10)$?],
-  (
-    [$10$],
-    [$sqrt(52)$],
-    [$14$],
-    [$sqrt(80)$],
-  ),
-)
-
-#mc(
-  24,
-  [A triangle has side lengths $x + 3$, $2x - 1$, and $x + 8$. If its perimeter is $34$, what is the value of $x$?],
-  (
-    [$4$],
-    [$5$],
-    [$6$],
-    [$8$],
-  ),
-)
-
-#mc(
-  25,
-  [Two angles are complementary. One angle is $3x + 10$ degrees and the other is $2x - 5$ degrees. What is the measure of the larger angle?],
-  (
-    [$29$ degrees],
-    [$41$ degrees],
-    [$49$ degrees],
-    [$61$ degrees],
-  ),
-)
-
-#mc(
-  26,
-  [A line has equation $2x + 5y = 20$. What is the slope of a line perpendicular to it?],
-  (
-    [$-frac(2, 5)$],
-    [$frac(2, 5)$],
-    [$-frac(5, 2)$],
-    [$frac(5, 2)$],
-  ),
-)
-
-#mc(
-  27,
-  [A rectangle has length $x + 7$ and width $x - 2$. Its area is $36$. Which answer could represent the dimensions of the rectangle?],
-  (
-    [$5$ by $5$],
-    [$6$ by $6$],
-    [$9$ by $4$],
-    [$12$ by $3$],
-  ),
-)
-
-#mc(
-  28,
-  [A dilation centered at the origin maps point $P(6, -9)$ to point $P'(2, -3)$. What is the scale factor?],
-  (
-    [$frac(1, 3)$],
-    [$frac(2, 3)$],
-    [$3$],
-    [$-3$],
-  ),
-)
-
-#mc(
-  29,
-  [Triangle $A B C$ is similar to triangle $D E F$. If $A B = 6$, $B C = 9$, and $D E = 10$, what is the length of $E F$?],
-  (
-    [$12$],
-    [$13$],
-    [$15$],
-    [$18$],
   ),
 )
 
@@ -587,8 +588,25 @@
 
 #sa(
   31,
+  [Consider the following list of ordered pairs:
+
+  ${( -3, 5 ), ( -1, 2 ), ( 0, 5 ), ( 2, 2 ), ( 4, 7 )}$
+
+  Does this list of ordered pairs represent a function? Explain why or why not.],
+  space: 1.6in,
+)
+
+
+#sa(
+  32,
+  [A rectangle has perimeter $46$. Its length is $5$ more than twice its width. Find the dimensions of the rectangle.],
+  space: 1.7in,
+)
+
+#sa(
+  33,
   [
-    Complete the table of values for the function $f(x) = frac(1,2)x^2 - 2$. Then use the points to sketch the graph.
+    Complete the table of values for the function $f(x) = frac(1,2)x^2 - 2$. Show your work on the lines below. Then use the points to sketch the graph.
 
     #v(0.15in)
 
@@ -607,6 +625,9 @@
     #align(center)[
       #cetz.canvas(length: 0.45cm, {
         import cetz.draw: *
+
+        // Background grid
+        grid((-5, 5), (5, -4), step: 1, help-lines: true)
 
         // Axes
         line((-5, 0), (5, 0), mark: (end: ">"))
@@ -627,20 +648,4 @@
     ]
   ],
   space: 0.5in,
-)
-
-#sa(
-  32,
-  [A rectangle has perimeter $46$. Its length is $5$ more than twice its width. Find the dimensions of the rectangle.],
-  space: 1.7in,
-)
-
-#sa(
-  33,
-  [Consider the following list of ordered pairs:
-
-  ${( -3, 5 ), ( -1, 2 ), ( 0, 5 ), ( 2, 2 ), ( 4, 7 )}$
-
-  Does this list of ordered pairs represent a function? Explain why or why not.],
-  space: 1.6in,
 )
