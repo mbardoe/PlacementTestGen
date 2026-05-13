@@ -72,21 +72,35 @@
   #strong[Directions:] #body
 ]
 
-#let mc(num, question, choices) = block[
+#let mc(num, question, choices, columns: 1) = block(
+  breakable: false,
+)[
   #strong[#num.] #question
 
-  #enum(
-    numbering: "A.",
-    ..choices
-  )
+  #if columns == 1 [
+    #enum(
+      numbering: "A.",
+      ..choices
+    )
+  ] else [
+    #grid(
+      columns: (1fr, 1fr),
+      gutter: 1em,
+      row-gutter: 0.25em,
+
+      [A. #choices.at(0)], [B. #choices.at(1)],
+      [C. #choices.at(2)], [D. #choices.at(3)],
+    )
+  ]
 
   #v(0.1in)
   #align(left)[Answer: #answer-blank()]
 
   #v(0.35in)
 ]
-
-#let sa(num, question, space: 1.5in) = block[
+#let sa(num, question, space: 1.5in) = block(
+  breakable: false,
+)[
   #strong[#num.] #question
 
   #v(0.15in)
@@ -100,14 +114,15 @@
 
   #v(space)
 ]
+= Wellington Algebra 2 Placement and Honors Readiness Test
 
-= Algebra 2 Placement Test
+#v(0.3in)
 
 #grid(
   columns: (1fr, 1fr),
   gutter: 1em,
-  [Name: #blank()],
-  [Date: #blank()],
+  [Name: #answer-blank(width: 2.5in)],
+  [Date: #answer-blank(width: 2.5in)],
 )
 
 #v(0.3in)
@@ -150,6 +165,7 @@
     [#small-graph("x3")],
     [#small-graph("abs")],
   ),
+  columns: 2,
 )
 
 #mc(
@@ -487,7 +503,7 @@
     [$10$],
     [$sqrt(52)$],
     [$14$],
-    [$sqrt(100)$],
+    [$sqrt(80)$],
   ),
 )
 
@@ -568,8 +584,63 @@
   ),
 )
 
-//#sa(
-//  31,
-//  [The points $A(1, 2)$, $B(5, 2)$, and $C(5, 8)$ form a right triangle. Find the area of triangle $A B C$.],
-//  space: 1.2in,
-//)
+
+#sa(
+  31,
+  [
+    Complete the table of values for the function $f(x) = frac(1,2)x^2 - 2$. Then use the points to sketch the graph.
+
+    #v(0.15in)
+
+    #table(
+      columns: 4,
+      inset: 8pt,
+      align: center,
+      stroke: 0.5pt,
+
+      [$x$], [$-2$], [$0$], [$2$],
+      [$f(x)$], [], [], [],
+    )
+
+    #v(0.25in)
+
+    #align(center)[
+      #cetz.canvas(length: 0.45cm, {
+        import cetz.draw: *
+
+        // Axes
+        line((-5, 0), (5, 0), mark: (end: ">"))
+        line((0, -4), (0, 5), mark: (end: ">"))
+
+        // Tick marks
+        for x in range(-5, 6) {
+          line((x, -0.08), (x, 0.08))
+        }
+
+        for y in range(-4, 6) {
+          line((-0.08, y), (0.08, y))
+        }
+
+        content((5.3, 0), [$x$])
+        content((0, 5.3), [$y$])
+      })
+    ]
+  ],
+  space: 0.5in,
+)
+
+#sa(
+  32,
+  [A rectangle has perimeter $46$. Its length is $5$ more than twice its width. Find the dimensions of the rectangle.],
+  space: 1.7in,
+)
+
+#sa(
+  33,
+  [Consider the following list of ordered pairs:
+
+  ${( -3, 5 ), ( -1, 2 ), ( 0, 5 ), ( 2, 2 ), ( 4, 7 )}$
+
+  Does this list of ordered pairs represent a function? Explain why or why not.],
+  space: 1.6in,
+)
